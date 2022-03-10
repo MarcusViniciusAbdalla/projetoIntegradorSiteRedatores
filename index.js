@@ -1,6 +1,19 @@
 const express = require('express');
 
 const app = express();
+app.use(express.json());
+
+var users = [];
+
+app.get('/users' , (req,res) => {
+   res.send(JSON.stringify(users))
+});
+
+app.post('/users' , function(req,res) {
+  users.push(req.body)
+  res.send(200,users)
+});
+
 
 app.get('' ,(req, res) =>{
    res.send('Hello Word!')
