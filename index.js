@@ -9,11 +9,10 @@ app.get('/users' , (req,res) => {
    res.send(JSON.stringify(users))
 });
 
-app.post('/users' , function(req,res) {
+app.post('/users' ,(req,res) => {
   users.push(req.body)
   res.send(200,users)
 });
-
 
 app.get('' ,(req, res) =>{
    res.send('Hello Word!')
