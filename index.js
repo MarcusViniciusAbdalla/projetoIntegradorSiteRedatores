@@ -1,7 +1,8 @@
-/*const express = require('express');
+const express = require('express');
 
 const app = express();
-app.use(express.json());
+
+/*app.use(express.json());
 
 var users = [];
 
@@ -26,8 +27,8 @@ app.get('/usuarios' ,(req, res) =>{
 app.post('/usuarios' ,(req, res) =>{
   console.log(req)
   res.send('Hello Word')
-});
+});*/
 
 app.listen(3000,() => {
     console.log('Servidor rodando no endereço http://localhost:3000')
-});*/
+});
