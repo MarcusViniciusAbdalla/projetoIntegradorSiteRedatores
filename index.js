@@ -2,6 +2,10 @@ const express = require('express');
 
 const app = express();
 
+app.get('' ,(req, res) =>{
+  res.send('Hello Word!')
+});
+
 /*app.use(express.json());
 
 var users = [];
@@ -15,9 +19,6 @@ app.post('/users' ,(req,res) => {
   res.send(200,users)
 });
 
-app.get('' ,(req, res) =>{
-   res.send('Hello Word!')
-});
 
 app.get('/usuarios' ,(req, res) =>{
   const usuario = {nome: 'Marcus Vinicius Abdalla'}
