@@ -25,11 +25,18 @@ app.get('/usuarios' ,(req, res) =>{
   res.send(JSON.stringify(usuario))
 });
 
-app.post('/usuarios' ,(req, res) =>{
-  console.log(req)
-  res.send('Hello Word')
-});*/
+*/
 
 app.listen(3000,() => {
     console.log('Servidor rodando no endereço http://localhost:3000')
+});
+
+app.post('/usuarios' ,(req, res) =>{
+  console.log(req)
+  res.send('Hello Word')
+});
+
+app.get('/usuarios' ,(req, res) =>{
+  console.log(req)
+  res.send('Hello Word')
 });
