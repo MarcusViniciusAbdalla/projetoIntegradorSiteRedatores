@@ -15,19 +15,53 @@ nav li {
   font-size: large;  
 }
 
-ul li {
+li#first {
   text-decoration: none;
+
 }
 
 nav{
   text-align: center;
 }
 
-img logo {
-  display:inline
+img.logo {
+  display:flex;
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
 }
 
-header{
+header {
   display: flex;
-  text-align: center;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color:rgb(9, 126, 9);
+  display: block;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section.slide {
+  margin-top: 10px;
+  
 }
