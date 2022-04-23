@@ -44,8 +44,13 @@ ul li img {
 .header-2 {
     background-color: #ffffff;
     width: 980px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 20px;   
+}
+
+.menu-urls{
     border-bottom: 3px solid #efefef;
+    height: 80px;
 }
 
 .menu ul li {
@@ -64,10 +69,24 @@ ul li img {
 .busca {
     width: 10%;
     float: right;
-    margin-top: 15px;
+    text-align: center;
+}
+
+.busca input {
+    margin-top: 0;
+    height: 30px;
+    padding: 5px;
+    width: 190px;
+    border: 2x solid #d6d6d6;
 }
 
 .col-100 {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.col-200 {
     width: 100%;
     position: relative;
     float: left;
