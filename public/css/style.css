@@ -1,11 +1,17 @@
 body {
     width: 100%;
     height: 100%;
-    
+
 }
 
-.header-1 {
+.menu-principal {
     background-color: #0a78f6;
     height: 60px;
     
+}
+
+.logo img{
+    height: 50px;
+    padding-top: 4px;
+    padding-left: 10px;
 }
