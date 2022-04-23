@@ -15,7 +15,7 @@ body {
     height: 50px;
     padding-top: 4px;
     float:left;
-    margin-right: 500px;
+    margin-right: 600px;
 }
 
 main {
@@ -25,14 +25,14 @@ main {
 }
 
 .redes-sociais ul li {
-    width: 40px;
+    width: 25px;
     display: inline-block;
     list-style: none;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 ul li img {
-    width: 45px;
-        
+    width: 25px;
+    margin-top: 10px;    
 }
 
