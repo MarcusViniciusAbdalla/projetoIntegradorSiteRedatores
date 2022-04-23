@@ -6,7 +6,7 @@ body {
 
 .menu-principal {
     width: 100%;
-    background-color: #0a78f6;
+    background-color: transparent;
     height: 60px;
     
 }
@@ -14,6 +14,8 @@ body {
 .logo img{
     height: 50px;
     padding-top: 4px;
+    float:left;
+    margin-right: 500px;
 }
 
 main {
@@ -26,9 +28,11 @@ main {
     width: 40px;
     display: inline-block;
     list-style: none;
-
+    margin-left: 60px;
 }
 
 ul li img {
-    width: 45px;    
+    width: 45px;
+        
 }
+
