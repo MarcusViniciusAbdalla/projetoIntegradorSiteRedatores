@@ -21,3 +21,14 @@ main {
     margin: 0 auto;
     position: relative;
 }
+
+.redes-sociais ul li {
+    width: 40px;
+    display: inline-block;
+    list-style: none;
+
+}
+
+ul li img {
+    width: 45px;    
+}
