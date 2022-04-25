@@ -36,6 +36,7 @@ main {
     margin-left: 40px;
 }
 
+
 ul li img {
     width: 25px;
     margin-top: 6px;    
@@ -60,6 +61,14 @@ ul li img {
     text-transform: uppercase;
     margin-left: 15px;
 }
+
+.menu ul li:hover {
+    font-weight: bold;
+    color:aqua;
+    border-bottom: 2px solid aqua;
+    height: px;
+}
+
 
 .menu {
     width: 90%;
@@ -90,4 +99,5 @@ ul li img {
     width: 100%;
     position: relative;
     float: left;
+    
 }
