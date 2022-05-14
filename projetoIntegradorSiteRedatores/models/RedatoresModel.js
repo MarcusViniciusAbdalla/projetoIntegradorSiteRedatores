@@ -1,4 +1,4 @@
-const Redatores = {
+const RedatoresModel = {
   obterInformacoes: () => ([
     'Júlio',
     'Luciano',
@@ -6,4 +6,4 @@ const Redatores = {
   ])
 }
 
-module.exports = Redatores;
+module.exports = RedatoresModel;
