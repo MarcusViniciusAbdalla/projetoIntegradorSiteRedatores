@@ -27,11 +27,6 @@ ul {
     margin-left: 200px;
 }
 
-main {
-    width: 980px;
-    margin: 0 auto;
-    position: relative;
-}
 
 .redes-sociais ul li {
     width: 25px;
@@ -106,7 +101,6 @@ ul li img {
     
 }
 
-slider-principal {
-    width: 100vw;
-    height: 100vh;
-}
+
+
+
