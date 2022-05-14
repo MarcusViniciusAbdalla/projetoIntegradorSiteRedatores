@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.send('Rotas de Redatores');
-});
+const RedatoresController = require('../controllers/RedatoresController');
+
+router.get('/', RedatoresController.index);
 
 module.exports = router;
