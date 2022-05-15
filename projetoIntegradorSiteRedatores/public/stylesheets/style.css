@@ -1,0 +1,32 @@
+:root {
+
+  --primary-color: hsl(241, 100%, 50%); 
+  --secundary-color: hsl(210, 11%, 15%);
+
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color:var(--primary-color)
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--secundary-color);
+  line-height: 130%;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+button {
+  background-color: var(--primary-color);
+}
+
