@@ -5,7 +5,7 @@
 
 :root {
 
-  --primary-color: hsl(241, 100%, 50%); 
+  --primary-color: hsl(245, 100%, 50%); 
   --headline: hsl(210, 11%, 15%);
   --paragraph:hsl(210, 9%, 31%);
 
@@ -51,5 +51,17 @@ button {
   margin-bottom: 6rem;
   height: 6.2rem;
   width: 26.3rem;
+  color:white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
