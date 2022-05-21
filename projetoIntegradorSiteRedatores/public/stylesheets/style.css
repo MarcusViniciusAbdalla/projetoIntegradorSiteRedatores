@@ -28,6 +28,7 @@ body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
   text-align: center;
+  overflow: overlay;
 }
 
 .wrapper {
@@ -157,12 +158,22 @@ nav.scroll svg:nth-child(1) path{
   fill:white;
 }
 
-nav.scroll svg:nth-child(2) path{
+nav.scroll button path{
   stroke:white;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 body.menu-expanded {
   overflow: hidden;
+}
+
+body.menu-expanded > :not(nav) {
+  display: none;
 }
 
 .menu,
@@ -186,6 +197,7 @@ body.menu-expanded .menu {
 
   width: 100vw;
   height: 100vh;
+  padding-top: var(--nav-height);
 }
 
 .menu ul:nth-child(1) {
@@ -236,5 +248,18 @@ body.menu-expanded nav {
   gap: 3.2rem;
 }
 
+body.menu-expanded .logo,
+body.menu-expanded nav button {
+  position: relative;
+  z-index: 100;
+}
+
+body.menu-expanded .logo path{
+  fill:white;
+}
+
+body.menu-expanded button path{
+  stroke:white;
+}
 
 
