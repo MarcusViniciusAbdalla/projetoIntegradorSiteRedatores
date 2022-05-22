@@ -185,6 +185,9 @@ nav button {
   cursor: pointer;
 }
 
+
+/*========================================MENU EXPANDED====================================================*/
+
 body.menu-expanded {
   overflow: hidden;
 }
@@ -206,6 +209,10 @@ body.menu-expanded .close-menu {
   visibility: visible;
 }
 
+.menu {
+  transform: translateY(100%);
+}
+
 body.menu-expanded .menu {
   position: fixed;
   top: 0;
@@ -215,6 +222,10 @@ body.menu-expanded .menu {
   width: 100vw;
   height: 100vh;
   padding-top: var(--nav-height);
+
+  transition: transform 300ms;
+  transform: translateY(0);
+  
 }
 
 .menu ul:nth-child(1) {
