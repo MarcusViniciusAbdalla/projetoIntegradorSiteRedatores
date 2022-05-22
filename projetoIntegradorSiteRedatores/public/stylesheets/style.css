@@ -54,7 +54,10 @@ section {
 
 section header h4 {
   font-size: 1.4rem;
-  color:var(--primary-color);
+  line-height: 150%;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
   margin-bottom: 1.6rem;
 }
 
@@ -68,6 +71,13 @@ section header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
+}
+
+section .content p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--paragraph);
 }
 
 
@@ -325,6 +335,11 @@ body.menu-expanded button path{
 }
 
 /*=====================================ABOUT========================================*/
+
+#about {
+  text-align: left;
+  background-color: var(--brand-beige);
+}
 
 #about header h2 {
   margin-bottom: 2.4rem;
