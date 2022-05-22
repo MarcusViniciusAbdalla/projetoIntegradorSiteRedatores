@@ -48,6 +48,10 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 section {
   padding-block: 10rem;
 }
@@ -343,6 +347,11 @@ body.menu-expanded button path{
 
 #about header h2 {
   margin-bottom: 2.4rem;
+}
+
+#about .content p {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
 }
 
 
