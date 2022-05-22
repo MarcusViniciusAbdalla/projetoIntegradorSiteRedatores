@@ -52,6 +52,43 @@ section {
   padding-block: 10rem;
 }
 
+/*==========================================NAVIGATION========================================================*/
+
+nav {
+  display: flex;
+
+  width: 100vw;
+  height: var(--nav-height);
+  position: fixed;
+  top:0;
+  z-index: 100;
+}
+
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.scroll {
+  background: var(--primary-color);
+  
+}
+
+nav.scroll .logo path{
+  fill:white;
+}
+
+nav.scroll button path{
+  stroke:white;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 
 /*================================================HOME=========================================*/
 
@@ -147,44 +184,6 @@ section {
   margin-bottom: 0.4rem;
 }
 
-/*==========================================NAVIGATION========================================================*/
-
-nav {
-  display: flex;
-
-
-  height: var(--nav-height);
-  position: fixed;
-  top:0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-}
-
-nav .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav.scroll {
-  background: var(--primary-color);
-  width: 100vw;
-}
-
-nav.scroll svg:nth-child(1) path{
-  fill:white;
-}
-
-nav.scroll button path{
-  stroke:white;
-}
-
-nav button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
 
 /*========================================MENU EXPANDED====================================================*/
@@ -194,7 +193,7 @@ body.menu-expanded {
 }
 
 body.menu-expanded > :not(nav) {
-  display: none;
+  visibility: hidden;
 }
 
 .menu,
@@ -247,10 +246,6 @@ body.menu-expanded .menu {
   color: white;
 }
 
-
-body.menu-expanded nav {
-  position: relative;
-}
 
 .menu .button {
   background: white;
