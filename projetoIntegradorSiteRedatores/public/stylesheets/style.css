@@ -354,6 +354,10 @@ body.menu-expanded button path{
   margin-bottom: 6rem;
 }
 
+#about img {
+  border-radius: 10%;
+}
+
 
 
 
