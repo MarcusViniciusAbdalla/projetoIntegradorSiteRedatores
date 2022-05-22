@@ -13,6 +13,8 @@
   --brand-beige:hsl(39, 100%, 97%);
   --brand-light:hsl(210, 23%, 85%);
 
+  --bg-light:hsl(180, 14%, 97%);
+
   --nav-height:7.2rem;
 
   font-size: 62.5%;
@@ -29,6 +31,7 @@ body {
   font-size: 1.6rem;
   text-align: center;
   overflow: overlay;
+  background-color: var(--bg-light);
 }
 
 .wrapper {
@@ -40,6 +43,13 @@ body {
 ul {
   list-style: none;
 }
+
+section {
+  padding-block: 10rem;
+}
+
+
+/*================================================HEADER=========================================*/
 
 header {
   margin-top: calc(4.1rem + var(--nav-height));
@@ -271,10 +281,38 @@ body.menu-expanded button path{
   letter-spacing: 0.08rem;
   text-transform: uppercase;
   color: var(--primary-color);
+  margin-bottom: 1.6rem;
 }
 
 #services header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
+  color: var(--headline);
+  margin-bottom: 6rem;
 }
+
+#services .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#services .card {
+  padding: 2.4rem;
+  text-align: left;
+  background: white;
+  border: 1px solid var(--brand-light);
+  border-radius: .6rem;
+}
+
+#services .card h3 {
+  margin-block: 1.6rem;
+}
+
+
+
+
+
+
+
 
