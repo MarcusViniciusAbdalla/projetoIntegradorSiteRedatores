@@ -263,3 +263,18 @@ body.menu-expanded button path{
 }
 
 
+/*=====================================Services========================================*/
+
+#services header h4 {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+#services header h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+}
+
