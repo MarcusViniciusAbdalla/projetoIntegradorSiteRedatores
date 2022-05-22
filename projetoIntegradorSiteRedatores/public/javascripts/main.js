@@ -25,5 +25,8 @@ ScrollReveal({
  #home .stats ,
   #services,
   #services header,
-  services .cards`);
+  #services .cards,
+  #about,
+  #about header,
+  #about .content`);
 
