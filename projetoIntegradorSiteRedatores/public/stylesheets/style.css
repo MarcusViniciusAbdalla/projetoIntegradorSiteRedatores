@@ -52,6 +52,25 @@ section {
   padding-block: 10rem;
 }
 
+section header h4 {
+  font-size: 1.4rem;
+  color:var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+section header h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  color: var(--headline);
+}
+
+section header h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+}
+
+
 /*==========================================NAVIGATION========================================================*/
 
 nav {
@@ -210,19 +229,6 @@ body.menu-expanded button path{
   z-index: -1;
 }
 
-#home h4 {
-  font-size: 1.4rem;
-  color:var(--primary-color);
-  margin-bottom: 1.6rem;
-}
-
-#home h1 {
-  font-size: 3.4rem;
-  color: var(--headline);
-  line-height: 130%;
-  margin-bottom: 2.4rem;
-}
-
 #home p {
   font-size: 1.8rem;
   line-height: 150%;
@@ -297,9 +303,6 @@ body.menu-expanded button path{
 }
 
 #services header h2 {
-  font-size: 3rem;
-  line-height: 3.9rem;
-  color: var(--headline);
   margin-bottom: 6rem;
 }
 
@@ -323,7 +326,9 @@ body.menu-expanded button path{
 
 /*=====================================ABOUT========================================*/
 
-
+#about header h2 {
+  margin-bottom: 2.4rem;
+}
 
 
 
