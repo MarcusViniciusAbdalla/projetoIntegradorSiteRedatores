@@ -19,7 +19,11 @@ function closeMenu() {
 ScrollReveal({
   origin: 'top',
   distance: '30px',
-  duration:700,
-  
-}).reveal('#home');
+  duration:700  
+}).reveal(`home ,
+ #home img , 
+ #home .stats ,
+  #services,
+  #services header,
+  services .cards`);
 
