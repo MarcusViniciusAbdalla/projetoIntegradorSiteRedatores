@@ -87,7 +87,7 @@ section .content p {
 
 .button {
   background-color: var(--primary-color);
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   padding: 1.6rem 3.2rem;
   color:white;
   text-transform: uppercase;
@@ -101,6 +101,7 @@ section .content p {
   text-decoration: none;
   border: none;
   width: fit-content;
+  transition: background 200ms;
 }
 
 .button:hover {
@@ -384,12 +385,17 @@ body.menu-expanded button path{
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 
 #contact ul li {
   display:flex;
   align-items: center;
   gap: .8rem;
+}
+
+#contact .button {
+  margin-bottom: 6rem;
 }
 
 
