@@ -225,6 +225,13 @@ body.menu-expanded .menu {
   margin-bottom: 8rem;
 }
 
+.menu .button:hover {
+  background-color: var(--brand-dark);
+  color: white;
+
+  filter: brightness(1.3);
+}
+
 .social-links {
   display: flex;
   align-items: center;
@@ -439,9 +446,13 @@ footer .social-links {
 
   opacity: 0;
   visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
 }
 
 #backToTopButton.show {
   opacity: 1;
   visibility: visible;
+  transform: translate(0);
 }
