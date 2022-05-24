@@ -50,7 +50,7 @@ ul {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 section {
@@ -76,6 +76,7 @@ section header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
+  margin-bottom: 2.4rem;
 }
 
 section .content p {
@@ -124,7 +125,7 @@ nav {
 nav .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 nav.scroll {
@@ -146,7 +147,7 @@ nav button {
   cursor: pointer;
 }
 
-/*========================================MENU NAVIGATION====================================================*/
+/*========================================MENU EXPANDED====================================================*/
 
 body.menu-expanded {
   overflow: hidden;
@@ -264,7 +265,7 @@ body.menu-expanded button path{
 #home::before {
   content: "";
   width: 100%;
-  height: calc(108rem + var(--nav-height));
+  height: calc(85rem + var(--nav-height));
   background-color: var(--brand-light);
   display: block;
 
@@ -312,6 +313,9 @@ body.menu-expanded button path{
 #home .stat p {
   margin: 0;
   color:var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 150%;
+  
 }
 
 #home .stat h3 {
