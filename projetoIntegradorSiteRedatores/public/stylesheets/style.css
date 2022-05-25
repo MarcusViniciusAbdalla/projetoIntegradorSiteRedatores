@@ -264,12 +264,13 @@ body.menu-expanded button path{
 
 #home {
   padding-top: calc(4.1rem + var(--nav-height));
+  padding-block: 0;
 }
 
 #home::before {
-  content: "";
+  content: '';
   width: 100%;
-  height: calc(85rem + var(--nav-height));
+  height: calc(76% + var(--nav-height));
   background-color: var(--brand-light);
   display: block;
 
@@ -301,17 +302,18 @@ body.menu-expanded button path{
 
 #home .stats {
   width: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-block: 4rem;
   margin-inline: auto;
+
   background-color: var(--brand-beige);
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 6rem;
-  
+
 }
 
 #home .stat p {
@@ -409,9 +411,7 @@ body.menu-expanded button path{
   gap: .8rem;
 }
 
-#contact .button {
-  margin-bottom: 6rem;
-}
+
 
 /*=====================================FOOTER========================================*/
 
@@ -466,27 +466,51 @@ footer .social-links {
 }
 
 
-/*==============================RESPONSIVO===================================*/
-
+/*=== RESPONSIVO =================================*/
 @media (min-width: 1024px) {
+  /*=== GERAL =================================*/
+  body {
+    overflow: auto;
+  }
 
   .wrapper {
-    width: min(112rem ,100% );
+    width: min(112rem, 100%);
+    display: grid;
   }
+
+  .col-a {
+    grid-area: A;
+  }
+
+  .col-b {
+    grid-area: B;
+  }
+
+  section {
+    padding-block: 16rem;
+  }
+
+  section header h2 {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  /*=== NAVIGATION =================================*/
+  /* reset */
   nav#navigation .wrapper * {
     margin: 0;
     padding: 0;
-    display: initial;
     visibility: initial;
+    display: initial;
     opacity: initial;
     flex-direction: initial;
     position: initial;
     font-size: initial;
     font-weight: initial;
-    color: initial;
-    background-color:initial;
     transform: initial;
-    
+    color: initial;
+    background-color: initial;
+    filter: initial;
   }
 
   nav#navigation .close-menu,
@@ -500,12 +524,11 @@ footer .social-links {
     align-items: center;
     justify-content: space-between;
     width: 60%;
-
   }
 
   nav#navigation .menu ul:nth-child(1) {
-    gap: 3.2rem;
     display: flex;
+    gap: 3.2rem;
   }
 
   nav#navigation .menu ul li a {
@@ -518,15 +541,18 @@ footer .social-links {
     justify-content: center;
     align-items: center;
     padding: 1rem 2.4rem;
+
     border: 1px solid var(--primary-color);
     border-radius: 4rem;
+
     color: var(--primary-color);
+
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.8rem;
-    text-transform: uppercase;  
+    text-transform: uppercase;
   }
-  
+
   nav#navigation .menu a.button:hover {
     background-color: var(--primary-color);
     border: none;
