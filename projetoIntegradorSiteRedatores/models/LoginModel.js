@@ -1,4 +1,4 @@
-const RedatoresModel = {
+const LoginModel = {
   obterInformacoes: () => ([
     'Júlio',
     'Luciano',
@@ -6,4 +6,4 @@ const RedatoresModel = {
   ])
 }
 
-module.exports = RedatoresModel;
+module.exports = LoginModel;
