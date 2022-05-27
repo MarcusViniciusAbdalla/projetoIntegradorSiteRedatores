@@ -43,6 +43,7 @@ body {
   width: min(50rem , 100%);
   margin-inline: auto;
   padding-inline: 2.4rem;
+  
 }
 
 ul {
@@ -86,6 +87,7 @@ section .content p {
   color: var(--paragraph);
 }
 
+
 .button {
   background-color: var(--primary-color);
   margin-bottom: 2rem;
@@ -114,18 +116,19 @@ section .content p {
 
 nav {
   display: flex;
-
   width: 100vw;
   height: var(--nav-height);
   position: fixed;
   top:0;
   z-index: 100;
+  
 }
 
 nav .wrapper {
   display: flex;
   align-items: center;
   justify-content:space-around;
+  
 }
 
 nav.scroll {
