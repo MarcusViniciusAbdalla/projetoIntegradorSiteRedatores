@@ -42,8 +42,7 @@ body {
 .wrapper {
   width: min(50rem , 100%);
   margin-inline: auto;
-  padding-inline: 2.4rem;
-  
+  padding-inline: 2.4rem;  
 }
 
 ul {
@@ -55,7 +54,7 @@ img {
 }
 
 section {
-  padding-block: 10rem;
+  padding-block: 10rem;  
 }
 
 section header h4 {
@@ -90,7 +89,7 @@ section .content p {
 
 .button {
   background-color: var(--primary-color);
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   padding: 1.6rem 3.2rem;
   color:white;
   text-transform: uppercase;
@@ -124,17 +123,18 @@ nav {
   
 }
 
+
 nav .wrapper {
   display: flex;
   align-items: center;
   justify-content:space-around;
-  
 }
 
 nav.scroll {
-  background: var(--primary-color);
-  
+  background: var(--primary-color);  
 }
+
+
 
 nav .menu,
 nav .close-menu {
@@ -245,6 +245,7 @@ body.menu-expanded .menu {
   align-items: center;
   justify-content: center;
   gap: 3.2rem;
+  font: size 3rem;
 }
 
 body.menu-expanded .logo,
